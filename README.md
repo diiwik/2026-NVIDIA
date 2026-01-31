@@ -114,7 +114,7 @@ Please see the [Deliverables Checklist](/team-submissions/README.md) in the team
 * CODA [Demo](https://youtu.be/MocBUZlQlmU?si=c2GXTKb1dosla4PW)
 * CODA [MCP](https://pypi.org/project/coda-mcp/)
 
-### Vibe Coding Tips
+### Vibe Coding Tips and Resources
 * Implement verification tests as part of your workflow (e.g., [unittests](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/en/stable/)
 
 * Introduce context into your prompting (e.g., [context7](https://context7.com), agent skills (`skills.md`), MCP, etc.)
@@ -123,6 +123,8 @@ Please see the [Deliverables Checklist](/team-submissions/README.md) in the team
 
 * Keep prompts short; open up new chats occassionally to avoid the context window getting too large
 * Meta vibe code. Take some pulse checks occassinoally as you're working by feeding your session back into an agent and ask them how you could improve your prompting.
+* [Cursor & The "Vibe" Workflow](https://youware.medium.com/cursor-for-vibe-coding-a-complete-guide-b0863d4a2330)
+* [Responsible AI Coding: Best Practices](https://cloud.google.com/blog/topics/developers-practitioners/five-best-practices-for-using-ai-coding-assistants)
 
 ## Accessing Material Post Challenge
 
