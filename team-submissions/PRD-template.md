@@ -28,19 +28,16 @@
 **Owner:** Project Lead
 
 ### Choice of Quantum Algorithm
-* **Algorithm:** [Identify the specific algorithm or ansatz]
-    * *Example:* "Quantum Approximate Optimization Algorithm (QAOA) with a hardware-efficient ansatz."
-    * *Example:* "Variational Quantum Eigensolver (VQE) using a custom warm-start initialization."
-
+* **Algorithm:** Counterdiabatically Assisted Adiabatic Quantum Optimization (CD-AQA) implemented using Trotterized time evolution in CUDA-Q, combined with a hybrid quantum–classical Memetic Tabu Search (MTS) refinement stage.
+    
 * **Motivation:** [Why this algorithm? Connect it to the problem structure or learning goals.]
-    * *Example (Metric-driven):* "We chose QAOA because we believe the layer depth corresponds well to the correlation length of the LABS sequences."
-    *  Example (Skills-driven):* "We selected VQE to maximize skill transfer. Our senior members want to test a novel 'warm-start' adaptation, while the standard implementation provides an accessible ramp-up for our members new to quantum variational methods."
+    We selected a counterdiabatically assisted adiabatic approach because the LABS cost function maps naturally to a structured Ising Hamiltonian containing only two-body and four-body interactions. This structure allows the quantum evolution to be implemented using fixed, low-locality operator blocks, avoiding the deep parameterized circuits required by variational methods such as QAOA or VQE.
    
 
 ### Literature Review
-* **Reference:** [Title, Author, Link]
+* **Reference:** [Adiabatic population transfer with control fields, Demirplak & Rice, https://pubs.acs.org/doi/10.1021/jp030708a]
 * **Relevance:** [How does this paper support your plan?]
-    * *Example:* "Reference: 'QAOA for MaxCut.' Relevance: Although LABS is different from MaxCut, this paper demonstrates how parameter concentration can speed up optimization, which we hope to replicate."
+    * *Example:* "The paper proposed an idea which was first of the kind , giving us insight of why to use as Adiabatic approach at all"
 
 ---
 
