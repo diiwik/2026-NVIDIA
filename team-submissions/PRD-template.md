@@ -1,8 +1,8 @@
 # Product Requirements Document (PRD)
 
-**Project Name:** [e.g., LABS-Solv-V1]
-**Team Name:** [e.g., QuantumVibes]
-**GitHub Repository:** [Insert Link Here]
+**Project Name:** QE-LABS
+**Team Name:** EigenHackers
+**GitHub Repository:** https://github.com/diiwik/2026-NVIDIA
 
 ---
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. The Architecture
-**Owner:** Project Lead
+**Owner:** Diwik Gupta
 
 ### Choice of Quantum Algorithm
 * **Algorithm:** Counterdiabatically Assisted Adiabatic Quantum Optimization (CD-AQA) implemented using Trotterized time evolution in CUDA-Q, combined with a hybrid quantum–classical Memetic Tabu Search (MTS) refinement stage.
